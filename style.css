@@ -314,7 +314,8 @@ header {
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 95%;
+        margin: auto;
+        /* width: %; */
     }
 
     .icon {
@@ -332,8 +333,8 @@ header {
 
     .sameff {
         padding: 5%;
-        margin: 1%;
-        width: 70%;
+        margin: 20px auto;
+        width: 30%;
         height: 60vh;
     }
 }
@@ -430,7 +431,7 @@ header {
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin: auto;
+        margin: 20px auto;
         width: 80%;
     }
 
@@ -445,7 +446,7 @@ header {
     .sameff {
         padding: 5%;
         margin: 1%;
-        width: 70%;
+        width: 30%;
         height: 60vh;
     }
 }
@@ -549,11 +550,11 @@ header {
     }
 
     .features {
-        /* display: flex;
+        display: flex;
         align-items: center;
-        justify-content: space-between; */
+        justify-content: space-between;
         text-align: center;
-        margin: 1px auto;
+        margin: 20px auto;
         width: 90%;
     }
 
@@ -563,14 +564,18 @@ header {
 
     .features p {
         font-size: 1.1rem;
+        margin: auto;
     }
 
     .sameff {
-        padding: 5% auto;
-        margin: 20px auto;
+        padding: 2% auto;
+        margin: 20px;
         padding: 1%;
         width: 30%;
         height: 40vh;
+    }
+    .sameff h2{
+      margin: 0;
     }
 
 }
