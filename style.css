@@ -42,7 +42,8 @@ header {
 .section {
     background-image: url(./Image\ \(1\).png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;object-fit: cover;
+    background-size: cover;
+    background-position: center;
     position: relative;
     width: 100%;
     height: 50vh;
@@ -119,6 +120,7 @@ header {
 .features {
     width: 100%;
     margin: 0%;
+    text-align: center;
 }
 
 .features h2 {
@@ -136,8 +138,12 @@ header {
 .sameff {
     background-color: #e2f2e8;
     border-radius: 20px;
-    padding: 1%;
-    margin: 5%;
+    padding: 7%;
+    margin: 20px auto;
+    max-width: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
 }
 
 @media screen and (max-width: 375px) {
@@ -429,11 +435,12 @@ header {
 
     .features {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         text-align: center;
-        margin: 20px auto;
-        width: 80%;
+        margin: 0 auto;
+        width: 90%;
     }
 
     .features h2 {
@@ -445,10 +452,9 @@ header {
     }
 
     .sameff {
-        padding: 5%;
-        margin: 1%;
-        width: 30%;
-        height: 60vh;
+        flex: 1 1 300px;
+        max-width: 30%;
+        margin: 20px;
     }
 }
 
@@ -475,8 +481,8 @@ header {
     }
 
     .section {
-        width: 100%;
-        height: 100vh;
+    background-size: cover;
+        height: 80vh;
     }
 
     .hero {
@@ -551,12 +557,7 @@ header {
     }
 
     .features {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        text-align: center;
-        margin: 20px auto;
-        width: 90%;
+        width: 80%;
     }
 
     .features h2 {
@@ -569,11 +570,7 @@ header {
     }
 
     .sameff {
-        padding: 2% auto;
-        margin: 20px;
-        padding: 1%;
-        width: 30%;
-        height: 40vh;
+       max-width: 30%;
     }
     .sameff h2{
       margin: 0;
