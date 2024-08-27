@@ -118,12 +118,11 @@ header {
 
 .features {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
     width: 100%;
-    margin: 0 auto;
-    text-align: center;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
 }
 
 .features h2 {
@@ -141,12 +140,9 @@ header {
 .sameff {
     background-color: #e2f2e8;
     border-radius: 20px;
-    padding: 2%;
-    margin: 10px;
-    flex: 1 1 200px;
-    max-width: 300px;
-    box-sizing: border-box;
-    height: auto;
+    padding: 1%;
+    margin: 0 10px;
+    flex: 1;
 }
 
 @media screen and (max-width: 375px) {
@@ -321,7 +317,6 @@ header {
 
     .features {
         flex-direction: column;
-        align-items: center;
     }
 
     .icon {
@@ -338,8 +333,7 @@ header {
     }
 
     .sameff {
-        max-width: 100%;
-        margin: 10px 0;
+        margin: 5px;
     }
 }
 
