@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -118,8 +117,12 @@ header {
 }
 
 .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
     width: 100%;
-    margin: 0%;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -138,10 +141,10 @@ header {
 .sameff {
     background-color: #e2f2e8;
     border-radius: 20px;
-    padding: 7%;
-    margin: 20px auto;
-    max-width: 350px;
-    width: 100%;
+    padding: 2%;
+    margin: 10px;
+    flex: 1 1 200px;
+    max-width: 300px;
     box-sizing: border-box;
     height: auto;
 }
@@ -317,12 +320,8 @@ header {
     }
 
     .features {
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
-        text-align: center;
-        margin: auto;
-        width: 70%;
+        flex-direction: column;
+        align-items: center;
     }
 
     .icon {
@@ -339,10 +338,8 @@ header {
     }
 
     .sameff {
-        padding: 15%;
-        margin: 20px auto;
-        width: 70%;
-        height: 60vh;
+        max-width: 100%;
+        margin: 10px 0;
     }
 }
 
@@ -360,7 +357,7 @@ header {
     }
 
     .section {
-        height: 90vh;
+        height: 80vh;
     }
 
     .hero {
@@ -481,8 +478,8 @@ header {
     }
 
     .section {
-    background-size: cover;
-        height: 80vh;
+        /* background-size: cover; */
+        height: 100vh;
     }
 
     .hero {
@@ -570,10 +567,11 @@ header {
     }
 
     .sameff {
-       max-width: 30%;
+        max-width: 30%;
     }
-    .sameff h2{
-      margin: 0;
+
+    .sameff h2 {
+        margin: 0;
     }
 
 }
